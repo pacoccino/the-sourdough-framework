@@ -1,0 +1,333 @@
+\begin{quoting}
+Dans ce chapitre, vous apprendrez comment faire
+votre propre levain. Avant de faire cela, vous apprendrez
+rapidement la mathématique du boulanger. Ne vous inquiétez pas,
+c'est une façon très simple d'écrire une recette qui
+est plus claire et plus adaptable. Une fois que vous l'aurez
+compris, vous voudrez écrire chaque recette de cette façon.
+Vous apprendrez à comprendre les signes pour déterminer
+l'état de préparation de votre levain. De plus, vous
+apprendrez aussi comment préparer votre levain pour un stockage à long terme.
+\end{quoting}
+
+\section{La mathématique du boulanger}%
+\label{section:bakers-math}
+
+Dans une grande boulangerie, un facteur déterminant est la
+quantité de farine que vous avez à disposition. Basé sur la quantité
+de farine que vous avez, vous pouvez calculer combien
+de pains ou de petits pains vous pouvez faire. Pour rendre cela facile
+pour les boulangers, la quantité de chaque ingrédient
+est calculée en pourcentage basé sur la quantité de farine que vous avez.
+Laissez-moi vous montrer cela avec un petit exemple d'une
+pizzeria. Le matin, vous vérifiez et vous vous rendez compte que
+vous avez autour de \qty{1}{\kg} de farine.
+Votre recette habituelle demande environ \qty{600}{\gram} d'eau.
+Ce serait une pâte à pizza typique, ni trop sèche ni
+trop humide. Ensuite, vous utiliseriez environ \qty{20}{\gram}
+de sel et environ \qty{100}{\gram} de levain\footnote{Ceci est ma recette de
+pâte à pizza préférée. Dans les pizzerias modernes de Napoli, ils utilisent de la levure fraîche ou sèche.
+Cependant, traditionnellement, la pizza a toujours été faite avec du levain.}.
+Le lendemain, vous avez soudain \qty{1.4}{\kg} de farine
+à votre disposition et vous pouvez donc faire plus de pâte à pizza. Que faites-vous ?
+Multipliez-vous tous les ingrédients par 1.4 ? Oui, vous pourriez,
+mais il y a une façon plus facile. C'est là que la mathématique du boulanger
+devient utile. Regardons la recette habituelle avec la mathématique du boulanger
+et ajustons-la pour la quantité de farine de \qty{1.4}{\kg}.
+
+\begin{table}[!htb]
+\begin{center}
+  \input{tables/table-bakers-math-example.tex}
+  \caption[Exemple de la mathématique du boulanger]{Un exemple de tableau montrant comment
+      calculer correctement en utilisant la mathématique du boulanger}
+\end{center}
+\end{table}
+
+Notez comment chaque ingrédient est calculé en pourcentage
+par rapport à la farine. Les \qty{100}{\percent} est la ligne de base et représente la quantité absolue
+de farine que vous avez à votre disposition. Dans ce cas, c'est \qty{1000}{\gram}
+(\qty{1}{\kg}).
+
+Revenons à notre exemple et ajustons la farine, car nous avons
+plus de farine disponible le lendemain. Comme mentionné, le lendemain
+nous avons \qty{1.4}{\kg} à disposition (\qty{1400}{\gram}).
+
+\begin{table}[!htb]
+    \begin{center}
+        \input{tables/table-recipe-bakers-math.tex}
+        \caption[Un autre exemple de la mathématique du boulanger]{Une recette exemple qui utilise
+            \qty{1400}{\gram} comme ligne de base et qui est ensuite calculée en utilisant
+            la mathématique du boulanger.}
+    \end{center}
+\end{table}
+
+Pour chaque ingrédient, nous calculons le pourcentage
+par rapport à la farine disponible (\qty{1400}{\gram}). Donc pour l'eau,
+nous calculons \qty{60}{\percent} basé sur \num{1400}. Ouvrez votre
+calculatrice et tapez \numproduct{1400 x 0.6} et vous avez
+la valeur exacte en grammes que vous devriez utiliser.
+Pour le deuxième jour, c'est \qty{840}{\gram}. Continuez à faire la même
+chose pour tous les autres ingrédients et vous aurez
+votre recette.
+
+Supposons que vous vouliez utiliser \qty{50}{\kg} de farine
+le lendemain. Que feriez-vous ? Vous procéderiez simplement à
+calculer les pourcentages une fois de plus. J'aime beaucoup cette
+méthode d'écriture des recettes. Imaginez que vous vouliez faire
+des pâtes. Vous aimeriez savoir combien de sauce vous devriez
+préparer. Maintenant, plutôt que de préparer une recette juste pour vous, une
+famille affamée arrive. Vous avez la tâche de faire des pâtes
+pour \num{20} personnes. Comment calculeriez-vous la quantité de sauce
+dont vous avez besoin ? Vous allez sur internet et cherchez une recette, puis
+vous êtes complètement perdu lorsque vous essayez de la multiplier.
+
+\section{Le processus de fabrication d'un levain}
+
+\begin{figure}[!htb]
+  \includegraphics[width=\textwidth]{sourdough-starter.jpg}
+  \caption[Levain très actif]{Un levain très actif illustré par les
+      bulles dans la pâte.}%
+  \label{fig:sourdough-starter}
+\end{figure}Faire un levain est très facile. Tout ce dont vous avez besoin
+c'est un peu de patience. La farine que vous devriez
+utiliser pour créer votre levain est idéalement une farine complète.
+Vous pourriez utiliser du blé entier, du seigle entier, de l'épeautre entier ou
+n'importe quelle autre farine que vous avez. En effet, les farines sans gluten comme
+le riz ou le maïs fonctionneraient aussi. Ne vous inquiétez pas, vous pouvez
+changer de farine plus tard. Utilisez n'importe quelle farine complète que vous
+avez déjà à portée de main.
+
+Votre farine est contaminée par des millions de microbes. Comme expliqué
+précédemment dans le chapitre sur les levures sauvages et les bactéries, ces
+microbes vivent sur la surface de la plante. C'est pourquoi
+une farine complète fonctionne mieux car vous avez plus de contamination naturelle
+des microbes que vous essayez de cultiver
+dans votre levain. Plus d'entre eux vivent sur l'enveloppe par rapport aux
+endophytes vivant dans le grain.
+
+Commencez par mesurer approximativement 50 grammes de farine et
+50 grammes d'eau. Les mesures n'ont pas besoin d'être exactes ; vous pouvez utiliser
+moins ou plus, ou simplement estimer les proportions. Ces
+valeurs sont juste montrées comme référence.
+
+N'utilisez pas d'eau chlorée lorsque vous mettez en place votre levain.
+Idéalement, vous devriez utiliser de l'eau en bouteille. Dans certaines régions
+comme l'Allemagne, l'eau du robinet est parfaitement fine. Le chlore est ajouté
+à l'eau comme désinfectant pour tuer les micro-organismes, vous ne pourrez
+pas cultiver un levain avec de l'eau chlorée.
+
+Dans ce processus, l'hydratation de votre levain est de 100%.
+Cela signifie que vous utilisez des parts égales de farine et
+d'eau. Mélangez tout ensemble de sorte que toute la farine soit
+correctement hydratée. Cette étape active les spores microbiennes
+dans votre mélange, les sortant de leur hibernation et
+les ravivant.
+
+Enfin, couvrez votre mélange mais assurez-vous que la couverture n'est
+pas hermétique. J'aime utiliser un verre et en placer un autre
+inversé sur le dessus. Le contenant ne doit pas être hermétique,
+vous voulez toujours qu'un échange de gaz soit possible.Maintenant une bataille épique commence. Dans une étude, les scientifiques
+ont identifié plus de 150 espèces de levures différentes vivant
+sur une seule feuille de plante~\cite{yeasts+biocontrol+agent}.
+Toutes les différentes levures et bactéries tentent de prendre
+l'avantage dans cette bataille. D'autres pathogènes tels que la moisissure
+sont également activés lorsque nous ajoutons de l'eau. Seuls les microorganismes
+les plus forts et les plus adaptables survivront. En ajoutant de l'eau à la
+farine, les amidons commencent à se dégrader. La graine essaie de
+germer mais elle ne le peut plus. L'enzyme amylase est essentielle pour ce processus. L'amidon compact est décomposé en sucres
+plus digestibles pour alimenter la croissance des plantes. Le glucose est ce dont
+la plante a besoin pour grandir. Les microorganismes qui survivent
+à cette frénésie sont adaptés à la consommation de glucose. Heureusement pour nous
+les boulangers, la levure et les bactéries savent très bien comment métaboliser
+le glucose. C'est ce dont ils ont été nourris dans la nature par les plantes.
+En formant des taches sur la feuille et en protégeant la plante des
+pathogènes, ils ont reçu du glucose en retour de leurs services.
+Chacun des microbes essaie de vaincre l'autre en consommant la
+nourriture le plus rapidement possible, en produisant des agents pour inhiber l'absorption de nourriture par les autres ou en produisant
+des bactéricides et/ou des fongicides. Ce stade précoce du levain
+est très intéressant car plus de recherches pourraient éventuellement révéler
+de nouveaux fongicides ou antibiotiques. Selon l'origine de votre farine,
+les microbes de départ de votre levain pourraient être différents
+de ceux d'un autre levain. Certaines personnes ont également signalé
+comment les microbes de votre main ou de l'air peuvent influencer les microorganismes de votre levain. Cela a un certain sens. Les
+microbes de votre main pourraient être bons pour fermenter votre sueur, mais
+probablement pas si bons pour métaboliser le glucose. La contamination
+de vos mains ou de l'air pourrait jouer un rôle mineur dans la bataille épique initiale.
+Mais seuls les micro-organismes les plus aptes à occuper la niche du levain
+vont survivre. Cela signifie que les micro-organismes qui savent
+comment convertir le maltose ou le glucose auront l'avantage. Ou les
+microbes qui fermentent les déchets des autres microbes. L'éthanol créé
+par la levure est métabolisé par les bactéries dans votre levain. C'est
+la raison pour laquelle un levain n'a pas d'alcool. Dans une certaine mesure, je peux confirmer le rôle de la contamination aérienne.
+Lors de la mise en place d'un nouveau levain,
+tout le processus est assez rapide pour moi. Après quelques
+jours, mon nouveau levain semble déjà assez vivant. Cela pourrait
+être dû à une contamination préalable par des microbes fermentant la farine dans
+ma cuisine.
+
+\begin{figure}[!htb]
+  \includegraphics[width=\textwidth]{sourdough-starter-microbial-war}
+  \caption[Microbial warfare during sourdough early days]{Une simple
+      visualisation de la guerre microbienne qui se produit pendant la préparation d'un
+      levain. Les spores sauvages sur la plante et la farine sont
+      activées dès que la farine et l'eau sont mélangées. Seuls les microbes
+      les plus adaptés à la fermentation de la farine survivent. En raison de la fermentation microbienne non désirée, il est conseillé de jeter les restes de nourriture des premiers
+      jours. Les levures et bactéries survivantes tentent continuellement de se surpasser mutuellement pour les ressources. Les nouveaux microbes ont du mal à entrer dans le
+      levain et sont éliminés.}%
+  \label{fig:sourdough-starter-microbial-war}
+\end{figure}Attendez environ 24~heures et observez ce qui se passe avec votre levain.
+Vous pourriez déjà voir certains signes précoces de fermentation. Utilisez votre nez
+pour sentir la pâte. Recherchez des bulles dans la pâte. Votre pâte
+a peut-être déjà augmenté un peu de taille. Tout ce que
+vous voyez et remarquez est un signe du premier combat. Certains microbes
+ont déjà été surpassés. D'autres ont remporté la première bataille.
+Après environ 24~heures, la plupart de l'amidon a été décomposé
+et vos microbes ont faim de sucres supplémentaires. Avec une cuillère
+prenez environ \qty{10}{\gram} du mélange de la veille et placez-le
+dans un nouveau récipient. Encore une fois - vous pourriez également simplement estimer
+toutes les quantités. Cela n'a pas vraiment d'importance. Mélangez les 10
+grammes du jour précédent avec un autre \qty{50}{\gram} de farine
+et \qty{50}{\gram} d'eau. Notez le ratio de 1:5. J'utilise très souvent
+1 part de culture ancienne avec 5 parts de farine et 5 parts d'eau.
+C'est aussi très souvent le même ratio que j'utilise lorsque je fais une pâte.
+Une pâte n'est rien d'autre qu'un levain avec des propriétés légèrement différentes.
+J'utiliserais toujours environ \qtyrange{100}{200}{\gram} de levain
+pour environ \qty{1000}{\gram} de farine (mathématiques du boulanger : \qtyrange{10}{20}{\percent}).
+Homogénéisez à nouveau votre nouveau mélange avec une cuillère. Puis couvrez
+le mélange à nouveau avec un verre ou un couvercle. Si vous remarquez que le dessus de
+votre mélange sèche beaucoup, envisagez d'utiliser un autre couvercle. Le
+les parties séchées seront compostées par des microbes plus adaptés tels que
+la moisissure. Dans de nombreux rapports d'utilisateurs, j'ai vu la moisissure être capable d'endommager
+le levain lorsque le levain lui-même a beaucoup séché. Vous aurez
+encore un peu de mélange de votre premier jour. Comme cela contient
+éventuellement des agents pathogènes dangereux qui ont été activés, nous allons jeter
+ce mélange. Une fois que votre levain est mature, ne le jetez jamais.
+C'est de la farine à fermentation longue qui est un excellent ajout
+utilisé pour faire des craquelins, des crêpes ou du pain de sandwich délicieux et copieux.
+Je le sèche aussi fréquemment et l'utilise comme agent de levée
+pour les pizzas que je suis en train de faire.
+
+Vous devriez encore une fois voir des bulles, le levain augmenter
+de taille et/ou le levain changer son odeur. Certaines personnes abandonnent
+après le deuxième ou le troisième jour. C'est parce que les signes peuvent ne plus
+être aussi dominants qu'ils l'étaient le premier jour. La raison de cela réside dans le fait que seulement quelques
+microbes sélectionnés commencent à prendre le contrôle de tout le levain. Les plus
+adaptables vont gagner. Ils sont très peu nombreux et vont
+augmenter en population après chaque alimentation. Même si vous ne voyez pas de signes
+d'activité directement, ne vous inquiétez pas. Il y a de l'activité dans
+votre levain à un niveau microscopique.
+
+24~heures plus tard, nous répéterons la même chose jusqu'à
+ce que nous voyons que notre levain est actif. Plus d'informations à ce sujet dans la
+prochaine section de ce livre.
+
+\section{Détermination de la préparation du levain}
+
+Pour certaines personnes, tout le processus de mise en place d'un levain prend
+seulement 4 jours. Pour d'autres, cela peut prendre 7 jours, pour certains même 20 jours.
+Cela dépend de plusieurs facteurs, notamment de la capacité de vos microbes sauvages
+à fermenter la farine. En général, avec chaque alimentation
+votre levain s'adapte de plus en plus à son environnement. Votre
+levain deviendra meilleur pour fermenter la farine. C'est pourquoi
+un levain très ancien et mature que vous recevez d'un ami pourrait
+être plus fort que votre propre levain au début. Avec le temps
+votre levain rattrapera. De même, la levure de boulanger moderne
+a été isolée de cette manière à partir de levains siècle vieux.
+
+\begin{flowchart}[!htb]
+\begin{center}
+  \input{figures/fig-starter-readiness.tex}
+  \caption[Préparation du levain]{Un diagramme montrant comment
+      déterminer si votre levain est prêt à être utilisé. Pour vérifier
+      la préparation, regardez l'augmentation de la taille et notez l'odeur de votre levain.
+      Les deux sont des indicateurs importants à vérifier pour la préparation.}%
+  \label{fig:sourdough-starter-readiness}
+\end{center}
+\end{flowchart}Les principaux signes à rechercher sont des bulles que vous verrez dans le pot de votre levain. C'est un signe que la levure métabolise votre pâte et produit du \ch{CO2}. Ce \ch{CO2} est piégé dans la matrice de votre pâte et est alors visible sur les bords du contenant. Notez également l'augmentation de la taille de votre pâte. La quantité d'augmentation de la pâte n'a pas d'importance. Certains boulangers prétendent qu'elle double, triple ou quadruple. L'augmentation de la taille dépend de vos microbes, mais aussi de la farine que vous utilisez pour faire le levain. La farine de blé contient plus de gluten et donnera donc une plus grande augmentation de taille. En même temps, les microbes ne sont probablement pas plus actifs par rapport à lorsque ils vivent dans un levain de seigle. On pourrait seulement soutenir que les microbes du blé sont peut-être meilleurs pour décomposer le gluten comparé aux microbes du seigle. C'est l'une des raisons pour lesquelles j'ai décidé de changer souvent la farine de mon levain. J'espérais créer un levain polyvalent capable de fermenter toutes sortes de farine différentes\footnote{Je ne peux pas dire scientifiquement si cela fonctionne. Généralement, les microbes qui se sont installés une fois sont très forts et n'autorisent pas l'entrée d'autres microbes. Mon levain a été initiallement fait avec de la farine de seigle. Ainsi, il est fort probable que la majorité de mes microorganismes proviennent d'une source de seigle.}. Votre nez est aussi un outil formidable pour déterminer la préparation du levain. Selon le microbiome de votre levain, vous devriez remarquer soit une odeur d'acide lactique, soit d'acide acétique. L'acide lactique a des notes de yaourt laitier. L'acide acétique a des notes vinaigrées très fortes. Certains décrivent l'odeur comme celle de la colle ou de l'acétone. Combiner les indices visuels de l'augmentation de la taille et des poches avec l'odeur est le meilleur moyen de déterminer la préparation du levain.
+
+Dans de rares cas, votre farine peut avoir été traitée et empêcher la croissance des microbes. Cela peut arriver si la farine n'est pas biologique et que de nombreux agents biochimiques ont été utilisés par l'agriculteur. Dans ce cas, essayez simplement à nouveau avec une farine différente. 7 jours est une bonne période à attendre avant d'essayer à nouveau.
+
+Une autre méthode utilisée par certains boulangers est le fameux \emph{test de flottaison}. L'idée est de prendre un morceau de votre levain et de le placer sur de l'eau. Si la pâte est pleine de gaz, elle flottera sur l'eau. Si elle n'est pas prête, elle ne pourra pas flotter et coulera au fond. Ce test ne fonctionne pas avec toutes les farines. Par exemple, la farine de seigle ne peut pas retenir le gaz aussi bien que la farine de blé et ne flottera donc pas dans certains cas. C'est pourquoi je n'utiilise personnellement pas ce test et ne le recommande pas.
+
+Une fois que vous voyez que votre levain est prêt, je vous recommanderais de lui donner un dernier repas et ensuite vous êtes prêt à faire votre pâte le soir ou le lendemain. Pour les instructions de fabrication de votre première pâte, veuillez vous référer aux prochains chapitres de ce livre.
+
+Si votre premier pain a échoué, il y a de fortes chances que votre fermentation n'ait pas fonctionné comme prévu. Dans de nombreux cas, la source est votre levain. Peut-être que l'équilibre entre les bactéries et la levure n'est pas encore optimal. Dans ce cas, une bonne solution est de continuer à nourrir votre levain une fois par jour. Avec chaque repas, votre levain devient meilleur à fermenter la farine. Les microbes s'adapteront de plus en plus à l'environnement. Veuillez également envisager de lire le chapitre sur le levain dur dans ce livre. Le levain dur aide à stimuler la partie levure de votre levain et à équilibrer la fermentation.
+
+\section{Entretien}\begin{flowchart}[!htb]
+\begin{center}
+  \input{figures/fig-starter-maintenance.tex}
+  \caption[Diagramme de flux d'entretien du levain]{Un diagramme de flux complet vous montrant comment effectuer un bon entretien du levain. Vous pouvez utiliser un morceau de votre pâte comme prochain levain. Vous pouvez également utiliser le levain restant et le nourrir à nouveau. Choisissez une option qui fonctionne le mieux pour votre propre emploi du temps. Le graphique suppose que vous utilisez un levain à un taux d'hydratation de \qty{100}{\percent}. Ajustez la teneur en eau en conséquence lorsque vous utilisez un levain ferme.}% 
+  \label{fig:sourdough-maintenance-process}
+\end{center}
+\end{flowchart}
+
+Vous avez préparé votre levain et votre premier pain. Comment entretenez-vous votre levain ? Il existe d'innombrables méthodes d'entretien différentes. Certaines personnes se passionnent complètement pour leur levain et nourrissent quotidiennement celui-ci. La clé pour comprendre comment effectuer correctement l'entretien est de comprendre ce qui arrive à votre levain après que vous l'ayez utilisé pour faire une pâte. Quel que soit le levain qui vous reste, ou un tout petit morceau de votre pâte à pain peut servir à faire votre prochain levain\footnote{Je~utilise souvent tout mon levain pour faire une pâte. Donc si la recette demande \qty{50}{\gram} de levain, je prépare exactement \qty{50}{\gram} de levain en avance. Cela signifie que je n'ai plus de levain. Dans ce cas, je prendrais un tout petit bout de la pâte à la fin de la période de fermentation. Ce bout je l'utiliserais pour faire repousser mon levain.}.
+
+Comme expliqué précédemment, votre levain est adapté à la fermentation de la farine. Les microbes de votre levain sont très résistants. Ils bloquent les agents pathogènes externes et autres microbes. C'est pour cela qu'en achetant un levain, vous préservez les microbes originaux. Il est probable qu'ils ne vont pas changer dans votre levain. Ils dominent les autres microbes lorsqu'il s'agit de fermenter la farine. Normalement tout dans la nature commence à se décomposer après un certain temps. Cependant, les microbes de votre levain ont des mécanismes de défense très forts. Au final, votre levain peut être comparé à un aliment mariné. Les aliments marinés ont été démontrés de rester bons pendant une très longue période\cite{pickled+foods+expiration}. L'acidité de votre levain est assez toxique pour d'autres microbes. Cependant, les levures et bactéries se sont adaptées à vivre dans un environnement très acide. Comparez cela à votre estomac, l'acidité neutralise de nombreux agents pathogènes potentiels. Tant que votre levain dispose de suffisamment de nourriture, il dominera les autres microbes. Lorsque le levain manque de nourriture, les microbes commencent à sporuler. Ils se préparent à une période de famine et réactiveront dès qu'une nouvelle nourriture est présente.
+
+Les spores sont très résistantes et peuvent survivre dans des conditions extrêmes. Des scientifiques ont affirmé avoir trouvé des spores qui sont toujours actives, âgées de 250 millions d'années\cite{old+spores}. Cependant, étant des spores, ils sont plus vulnérables aux agents pathogènes externes tels que la moisissure. Dans des conditions idéales, les spores peuvent survivre pendant longtemps.
+
+Mais tant qu'ils restent dans l'environnement de votre levain, ils vivent dans un environnement très protégé. Les autres champignons et bactéries ont du mal à décomposer votre masse de levain restante. J'ai vu très peu de cas où le levain est réellement mort. Il est presque impossible de tuer un levain.
+
+Cependant, ce qui se passe, c'est que l'équilibre entre les levures et les bactéries change dans votre levain. Les bactéries sont plus adaptées à vivre dans un environnement acide. C'est un problème lorsque vous faites une autre pâte. Vous voulez avoir le bon équilibre entre moelleux et notes aigres. 
+Quand un levain a hiberné pendant une longue période, il y a des chances que vous n'ayez pas un équilibre de microbes souhaitable. De plus, selon le temps que votre levain a hiberné, il se pourrait que vous n'ayez plus que des microbes sporulés. Quelques nourrissages aideront donc à remettre votre levain en forme.Voici quelques scénarios qui vous aideront à effectuer correctement l'entretien de votre levain, en fonction du moment où vous souhaitez cuisiner la prochaine fois.
+
+\textbf{J'aimerais cuisiner à nouveau le lendemain :}
+
+Prenez simplement le reste de votre levain et nourrissez-le à nouveau. Si vous avez épuisé
+tout votre levain, vous pouvez couper un morceau de votre pâte. La pâte elle-même n'est
+rien de différent qu'un levain gigantesque. Je recommande un ratio de 1:5:5 comme
+mentionné précédemment. Donc prenez 1 part de levain, nourrissez avec 5 parts de farine et 5
+parts d'eau. S'il fait très chaud où vous vivez, ou si vous voulez faire le
+pain environ 24 heures après votre dernier repas, changez le ratio. Dans ce cas, je recommanderais un ratio de 1:10:10. Parfois je n'ai pas assez de levain.
+Alors j'utilise même un ratio de 1:50:50 ou 1:100:100. Selon la quantité de nouvelle
+farine que vous donnez, il faudra plus ou moins de temps pour que votre levain soit prêt à nouveau.
+
+\textbf{J'aimerais prendre une pause et cuisiner la semaine prochaine :}
+
+Prenez simplement votre reste de levain et placez-le dans votre réfrigérateur. Il restera bon
+pendant une très longue période. La seule chose que je vois se produire est que la surface
+sèche dans le réfrigérateur. Je recommande donc de noyer le levain dans un peu d'eau. Cette couche supplémentaire d'eau offre une bonne protection contre le dessèchement de la partie supérieure. Comme la moisissure est aérobie, elle ne peut pas se développer efficacement sous
+l'eau. Avant d'utiliser à nouveau le levain, remuez simplement le liquide dans la pâte ou égouttez-le. Si vous égouttez le liquide, vous pouvez l'utiliser
+pour faire une sauce piquante lacto-fermentée par exemple.
+
+Plus il fait froid, plus vous conservez un bon équilibre de levure et
+bactéries. En général, plus il fait chaud, plus le processus de fermentation est rapide,
+et plus il fait froid, plus le processus est lent.
+En dessous de 4 degrés Celsius, la fermentation du levain s'arrête presque complètement. La
+vitesse de fermentation à basse température dépend des
+souches de levures sauvages et de bactéries
+que vous avez cultivées.
+
+\textbf{J'aimerais prendre une pause de plusieurs mois :}
+
+Sécher votre levain pourrait être la meilleure option pour le conserver dans ce cas. En
+enlevant l'humidité et la nourriture, vos microbes vont sporuler. Comme il n'y a pas
+d'humidité, les spores peuvent résister à d'autres pathogènes très efficacement. Un levain séché peut
+être bon pendant des années.
+
+Prenez simplement votre levain et mélangez-le avec de la farine. Essayez d'émietter le levain autant
+que possible. Ajoutez continuellement de la farine jusqu'à ce que vous remarquiez qu'il n'y a pas
+d'humidité restante. Placez le levain en farine dans un endroit sec de votre maison. Laissez-le
+sécher encore plus. Si vous avez un déshydrateur, vous pouvez l'utiliser pour accélérer le
+processus. Réglez-le à environ 30 degrés Celsius et séchez le levain pendant 12 à 20 heures. Le lendemain
+jour, votre levain a un peu séché. Il est dans un état vulnérable car il reste encore un peu
+d'humidité. Ajoutez un peu plus de farine pour accélérer le processus de séchage. Répétez
+pendant encore 2 jours jusqu'à ce que vous sentiez qu'il n'y a plus d'humidité. C'est
+important sinon il pourrait commencer à moisir. Une fois cela fait, stockez simplement le
+levain dans un récipient hermétique. Ou vous pouvez procéder et congeler
+le levain séché. Les deux options fonctionnent parfaitement. Votre levain sporulé
+attend maintenant votre prochain repas. Si disponible, vous pouvez ajouter des sachets de silice
+au récipient pour absorber l'excès d'humidité.
+
+Initialement, il me fallait environ 3 jours pour que mon levain redevienne vivant après
+l'avoir séché et réactivé. Si je fais la même chose maintenant, mon levain est
+parfois prêt après un seul repas. Il semble que les microbes s'adaptent. Ceux qui
+survivent à ce choc deviennent dominants par la suite.
+
+Donc en conclusion, le mode d'entretien que vous choisissez dépend de quand vous voulez cuire ensuite.
+Le but de chaque nouveau repas est de s'assurer que votre levain
+a un équilibre souhaité de levure et de bactéries lors de la préparation d'une pâte. Il n'est pas nécessaire de donner à votre
+levain des repas quotidiens, à moins qu'il ne soit pas encore mûr. Dans ce cas, chaque
+repas subséquent aidera à rendre votre levain plus apte à fermenter
+la farine.
