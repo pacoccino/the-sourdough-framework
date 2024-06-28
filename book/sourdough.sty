@@ -13,6 +13,12 @@
 \usepackage[font={sffamily, sbseries}]{quoting}
 \usepackage{microtype}
 
+% style=nextline breaks on make4ht
+\ifdefined\HCode\else
+\usepackage{enumitem}
+\setlist[description]{style=nextline, leftmargin=0cm}
+\fi
+
 \DeclareNewTOC[
   type=flowchart,%
   types=flowcharts,%  ,
@@ -27,6 +33,10 @@
 % Common abbreviations
 \newcommand{\ie}{\emph{i.e.}\@ifnextchar.{\!\@gobble}{}}
 \newcommand{\eg}{\emph{e.g.}\@ifnextchar.{\!\@gobble}{}}
+\newcommand{\etc}{etc\@ifnextchar.{}{.\@}}
+
+% Consistent pH values
+\newcommand{\pHvalue}[1]{pH~\SI{#1}{}}
 
 % For tables
 \renewcommand\theadfont{\bfseries}
@@ -96,6 +106,7 @@
   {wheat-sourdough/}
   {wheat-sourdough/shaping/}
   {non-wheat-sourdough/}
+  {mix-ins/}
 }
 
 % Caption and figure size below images

@@ -32,7 +32,8 @@ make
 
 Then you can check out the file `book/book.pdf`
 
-If you want to 🍞 bake all the versions including ebook formats (.pdf, .epub, .mobi, .azw3) run:
+If you want to 🍞 bake all the versions including ebook variants (.pdf, .epub
+in colour and size optimized Black&White), run:
 
 ```console
 make bake
@@ -42,19 +43,21 @@ You can check the files in  the folder `book/release/`
 
 ## 🍞 Baking the book locally (LaTeX)
 
-Make sure you have `biber` and `latexmk` installed. Refer to your system's
-installation instructions for LaTeX. To create the serif .pdf format, run:
+Make sure you have `biber`, `latexmk` and ``ImageMagick`` installed. Refer to
+your system's installation instructions for LaTeX. To create the serif .pdf
+format, run:
 
 ```console
 cd book/
 make
 ```
 
-If you want to 🍞 bake all the versions including ebook formats (.pdf, .epub, .mobi, .azw3) run:
+If you want to 🍞 bake all the versions including ebook variants (.pdf, .epub
+in colour and size optimized Black&White), run:
 
 ```console
 cd book/
-make bake
+make -j bake
 ```
 
 You can check the files in the folder `book/release/`
@@ -71,17 +74,24 @@ The below versions are automatically built on every push to the `main` branch.
 
 * [Download compiled .pdf version](https://www.the-bread-code.io/book.pdf)
 * [Download compiled .epub version](https://www.the-bread-code.io/book.epub)
-* [Download compiled .mobi version](https://www.the-bread-code.io/book.mobi)
-* [Download compiled .azw3 version](https://www.the-bread-code.io/book.azw3)
 
-There's an additional enhanced accessibility version using a sans serif font:
+There's an additional enhanced accessibility version using a sans-serif font:
 
-* [Download compiled .pdf version](https://www.the-bread-code.io/book-sans-serif.pdf)
-* [Download compiled .epub version](https://www.the-bread-code.io/book-sans-serif.epub)
-* [Download compiled .mobi version](https://www.the-bread-code.io/book-sans-serif.mobi)
-* [Download compiled .azw3 version](https://www.the-bread-code.io/book-sans-serif.azw3)
+* [Download compiled sans-serif .pdf version](https://www.the-bread-code.io/book-sans-serif.pdf)
 
-## Online HTML version (WIP)
+An additional black and white ebook is provided with a greatly reduced file
+size. This shrinks the book from more than 50MB down to ~5MB:
+
+* [Download compiled B&W .epub version](https://www.the-bread-code.io/bw-book.epub)
+
+If you prefer a very short version (about 10 pages) with main flowcharts and
+crucial informations needed while you are in the kitchen, we also provide a
+"too long;didn't read" version you could print.  Having read the full book is
+highly recommended to understand this leaflet:
+
+* [Download a condensed version](https://www.the-bread-code.io/booklet.pdf)
+
+## Online HTML version
 
 Head over to [https://www.the-sourdough-framework.com](https://www.the-sourdough-framework.com)
 
@@ -123,3 +133,14 @@ me to dedicate time to continuously update and improve this book.
 
 * [My YouTube channel](https://youtube.com/c/thebreadcode)
 * [Ask a question on Discord](https://breadco.de/discord)
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
